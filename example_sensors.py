@@ -46,7 +46,7 @@ def failure_callable():
 
 
 with DAG(
-    dag_id="example_sensors",
+    "example_sensors",
     schedule=None,
     start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
     catchup=False,
